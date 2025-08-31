@@ -32,6 +32,8 @@ Neither of these techniques works in every situation though (except Relay Server
 I am currently looking into [libp2p](https://github.com/libp2p/libp2p) to see whether it can be used as a basis for the type of node I have in mind.
 
 I am also looking into [tailscale](https://tailscale.com/) to see whether it can be used to create a cluster using the home-servers of myself and a few friends. The cluster would be connected with peer-to-peer links and also accept peer-to-peer connection requests.
+* [Headscale](https://github.com/juanfont/headscale)
+* [Multi-tailnet](https://jamesguthrie.ch/blog/multi-tailnet-unlocking-access-to-multiple-tailscale-networks/)
 
 ----
 
