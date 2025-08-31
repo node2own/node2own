@@ -11,9 +11,9 @@ The desire for this capability is not new and already has a name: peer-to-peer c
 
 The bad name can easily be rectified with proper legal society-building applications.
 
-Network Address translation is a solution to the problem with the most common Internet Protocol, IPv4, that there are more devices that need an internet-address than there addresses available. This solution is called Network Address Translation, or NAT, and hides the internet-address of the caller from the callee. Servers use a setup that involves port-forwarding and/or a reverse proxy to get around this, but this is not feasible for all devices like phones and game PC's.
+Network Address translation is a solution to the problem with the most common Internet Protocol, IPv4. The problem being that there are more devices that need an internet-address than there addresses available. The problematic solution is called Network Address Translation, or NAT, and hides the internet-address of the caller from the callee. Servers use a setup that involves port-forwarding and/or a reverse proxy to get around this, but this is not feasible for all devices like phones and game PC's.
 
-Another solution is simply to use a scheme with more addresses. There is such a protocol, but its adoption is a quite slow. This is the successor of IPv4: IPv6 (I have no idea what happened to v5).
+Another solution is simply to use a scheme with more addresses. There is such a protocol, but its adoption is far from universal. This is the successor of IPv4: IPv6 (I have no idea what happened to v5).
 
 I would support the idea that the government mandates providers to offer the possibility to get an IPv6 address for every device that they connect to the internet.
 
