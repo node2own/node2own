@@ -21,7 +21,7 @@ There should be local-first options for commodity software like
 
 This needs to be facilitated by infrastructure. Ideally the existing infrastructure for client-server applications can be re-used for local-first applications. However, to make local-first nodes just as powerful as server nodes, two problems must be solved:
 
-* Peer-to-peer communication
+* [Peer-to-peer communication](peer-to-peer/README.md)
 * Collaborative persistence
 
 The solutions to these problems are likely to be interdependent. Peer-to-peer communication will rely on collaborative persistence to exchange information on where to reach other nodes. Collaborative persistence will rely on the ability to exchange events with other nodes over peer-to-peer channels. Therefore, it might be advantageous to use a few servers initially, to bootstrap the network. After a while, however, it should be possible to use the full functionality of local-first applications without the need for any type of server.

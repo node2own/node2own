@@ -29,6 +29,10 @@ There is a host of techniques for establishing peer-to-peer connections[[1]](#1)
 
 Neither of these techniques works in every situation though (except Relay Server, but that is a solution that re-introduces the problem we wanted to solve in the first place)
 
+I am currently looking into [libp2p](https://github.com/libp2p/libp2p) to see whether it can be used as a basis for the type of node I have in mind.
+
+I am also looking into [tailscale](https://tailscale.com/) to see whether it can be used to create a cluster using the home-servers of myself and a few friends. The cluster would be connected with peer-to-peer links and also accept peer-to-peer connection requests.
+
 ----
 
 ### 1
