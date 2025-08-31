@@ -2,7 +2,7 @@
 
 _Infrastructure for local-first applications_
 
-Local-first applications are different from client-server applications in that the running process and the data reside on the local device, rather than on someone else's computer[[1]](#1)
+Local-first applications are different from client-server applications in that the running process and the data reside on the local device, rather than on someone else's computer.[[1]](#1)
 
 In a client-server app there are two type of nodes:
 
@@ -25,6 +25,8 @@ This needs to be facilitated by infrastructure. Ideally the existing infrastruct
 * Collaborative persistence
 
 The solutions to these problems are likely to be interdependent. Peer-to-peer communication will rely on collaborative persistence to exchange information on where to reach other nodes. Collaborative persistence will rely on the ability to exchange events with other nodes over peer-to-peer channels. Therefore, it might be advantageous to use a few servers initially, to bootstrap the network. After a while, however, it should be possible to use the full functionality of local-first applications without the need for any type of server.
+
+----
 
 #### [1]
 
