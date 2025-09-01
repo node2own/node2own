@@ -11,7 +11,7 @@ The desire for this capability is not new and already has a name: peer-to-peer c
 
 The bad name can easily be rectified with proper legal society-building applications.
 
-Network Address translation is a solution to the problem with the most common Internet Protocol, IPv4. The problem being that there are more devices that need an internet-address than there addresses available. The problematic solution is called Network Address Translation, or NAT, and hides the internet-address of the caller from the callee. Servers use a setup that involves port-forwarding and/or a reverse proxy to get around this, but this is not feasible for all devices like phones and game PC's.
+Network Address translation is a solution to a problem with the most common Internet Protocol, IPv4. The problem being that there are more devices that need an internet-address than there are addresses available. The problematic solution is called Network Address Translation, or NAT. By its very nature a device behind a NAT-router can only receive information from another device on the internet after it has connected with it first. In other words, most devices on the internet cannot respond to incoming requests. Servers use a setup that involves port-forwarding and/or a reverse proxy to get around this, but this is not feasible for all devices like phones and game PC's.
 
 Another solution is simply to use a scheme with more addresses. There is such a protocol, but its adoption is far from universal. This is the successor of IPv4: IPv6 (I have no idea what happened to v5).
 
@@ -27,13 +27,18 @@ There is a host of techniques for establishing peer-to-peer connections[[1]](#1)
 * UPnP IGD / NAT-PMP / PCP
 * Relay Server
 
-Neither of these techniques works in every situation though (except Relay Server, but that is a solution that re-introduces the problem we wanted to solve in the first place)
+Neither of these techniques works in every situation though (except Relay Server, but that is a solution that re-introduces the problem we wanted to solve in the first place).
 
 I am currently looking into [libp2p](https://github.com/libp2p/libp2p) to see whether it can be used as a basis for the type of node I have in mind.
 
 I am also looking into [tailscale](https://tailscale.com/) to see whether it can be used to create a cluster using the home-servers of myself and a few friends. The cluster would be connected with peer-to-peer links and also accept peer-to-peer connection requests.
 * [Headscale](https://github.com/juanfont/headscale)
 * [Multi-tailnet](https://jamesguthrie.ch/blog/multi-tailnet-unlocking-access-to-multiple-tailscale-networks/)
+
+The next step would be to join mesh networks.
+
+* [Radical Data](https://github.com/radical-data/mesh)
+* [qaul قول](https://qaul.net/)
 
 ----
 
