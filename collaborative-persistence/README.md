@@ -10,6 +10,8 @@ Let's try a bottom-up approach.
 4. Conflict-free replicated datatype (CRDT) that represents a string (this could be a Markdown document)
 5. Conflict-free replicated datatype (CRDT) that represents a structured document
 
+(Or should event-store and synchronized data set be ranked the other way around?)
+
 There could be a message type between an ephemeral message and a persisted event. A transactional operator? This could work as follows:
 
 1. A transaction-start event starts a transaction: this creates a temporary aggregate for the transaction
