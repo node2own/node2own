@@ -19,3 +19,9 @@ There could be a message type between an ephemeral message and a persisted event
 3. A transaction can be closed in two ways:
    1. A transaction-commit event records the result of the transaction and deletes the temporary aggregate together with all the transactional operators
    2. A transaction-rollback event signifies that the transaction was aborted and also deletes the temporary aggregate together with all the transactional operators
+
+## Links
+
+* [pkarr](https://github.com/pubky/pkarr/)
+* [Mainline DHT](https://en.wikipedia.org/wiki/Mainline_DHT)
+* [Number 0 youtube channel](https://www.youtube.com/@n0computer)
